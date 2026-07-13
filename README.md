@@ -107,3 +107,9 @@ PRF_PROJECT/
 └── System/
     └── main.cpp            # Điều phối Menu chính, nạp dữ liệu từ file lên RAM khi khởi động
 ```
+
+## 🚀 Run Project
+
+```bash
+g++ System/main.cpp "QUẢN LÝ KHO/Material.cpp" "NHÂN SỰ & BÀN TRÀ/RoomService.cpp" "ĐƠN HÀNG & TƯ VẤN/Order.cpp" -o main && ./main
+```
